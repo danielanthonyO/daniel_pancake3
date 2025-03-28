@@ -8,15 +8,15 @@ html {
   font-family: "Tahoma", Verdana, sans-serif;
 }
 :root {
-  --background-color: #272222;
-  --text-color: #f4f4f4;
-  --container-bg: #121212;
-}
-
-.dark-mode {
   --background-color: #eaeaea;
   --text-color: #000000;
   --container-bg: #f4f4f4;
+}
+
+.dark-mode {
+  --background-color: #272222;
+  --text-color: #f4f4f4;
+  --container-bg: #121212;
 }
 
 .theme-toggle {
