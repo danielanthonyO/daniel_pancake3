@@ -1,0 +1,42 @@
+/* All Orders Page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f6ea;
+    padding: 20px;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 25%;
+    gap: 20px;
+}
+h2 {
+    color: #d54215;
+    margin: 0;
+}
+#goBackButton {
+    text-decoration: none;
+    background-color: #d54215;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.order-item {
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease;
+}
+.waiting { background-color: yellow; }
+.ready { background-color: green; color: white; }
+.delivered { background-color: green; color: white; }
+.canceled { background-color: red; color: white; }
+
+
+
+
