@@ -10,13 +10,11 @@ html {
 :root {
   --background-color: #eaeaea;
   --text-color: #000000;
-  --container-bg: #f4f4f4;
 }
 
 .dark-mode {
   --background-color: #272222;
   --text-color: #f4f4f4;
-  --container-bg: #121212;
 }
 
 .theme-toggle {
@@ -25,8 +23,8 @@ html {
   right: 30px;
   padding: 10px 15px;
   cursor: pointer;
-  background-color: #ffd100;
-  color: #000;
+  background-color: #000;
+  color: #fff;
   border: none;
   border-radius: 5px;
 }
@@ -42,10 +40,7 @@ body {
   display: flex;
   align-items: flex-start;
   justify-content: space-between;
-  width: 100vw;
   flex-wrap: wrap;
-  background-color: var(--background-color);
-  color: var(--text-color);
 }
 
 .image-container {
@@ -53,7 +48,6 @@ body {
   left: 0;
   top: 0;
   width: 50vw;
-  height: 100vh;
   overflow: hidden;
   background-color: var(--background-color);
 }
@@ -83,9 +77,8 @@ body {
 .form-container {
   flex: 1;
   padding: 40px;
-  min-height: 100vh;
   margin-left: 50vw;
-  width: 50vw;
+  width: 48vw; 
   overflow-y: auto;
   background-color: var(--background-color);
 }

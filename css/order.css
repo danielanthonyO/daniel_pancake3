@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f5f6ea;
     padding: 20px;
+    background-color: #000;
 }
 .header {
     display: flex;
@@ -12,7 +13,7 @@ body {
     gap: 20px;
 }
 h2 {
-    color: #d54215;
+    color: #fff;
     margin: 0;
 }
 #goBackButton {
